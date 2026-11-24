@@ -1,0 +1,27 @@
+# secrets / config locale
+*.env
+.env
+config.local.*
+secrets.*
+
+# image générée à l'exécution (celle de docs/ est gardée exprès)
+/courbe.png
+/web/courbe.png
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# gns3 et images IOS (trop lourd + licence Cisco)
+*.gns3project
+*.image
+Cisco_*.zip
+project-files/
+
+# système
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
